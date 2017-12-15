@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="userCreate">Create an account</string>
+    <string name="userName">Name</string>
+    <string name="userFirstName">First name</string>
+    <string name="userMail">Mail</string>
+    <string name="btnClickSave">Submit</string>
+    <string name="btnClickCancel">Cancel</string>
+</resources>

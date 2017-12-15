@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeremyy_m.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/userCreate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userCreate"
+            android:textSize="10pt">
+
+        </TextView>
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userName"
+            android:textSize="10pt">
+
+        </TextView>
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_height="wrap_content"
+            android:hint="@string/userName"
+            android:layout_width="fill_parent">
+        </EditText>
+        <TextView
+            android:id="@+id/userFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userFirstName"
+            android:textSize="10pt">
+
+        </TextView>
+        <EditText
+            android:id="@+id/editUserFirstName"
+            android:layout_height="wrap_content"
+            android:hint="@string/userFirstName"
+            android:layout_width="fill_parent">
+        </EditText>
+        <TextView
+            android:id="@+id/userMail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userMail"
+            android:textSize="10pt">
+
+        </TextView>
+        <EditText
+            android:id="@+id/editUserMail"
+            android:layout_height="wrap_content"
+            android:hint="@string/userMail"
+            android:layout_width="fill_parent">
+        </EditText>
+        <Button
+            android:text="@string/btnClickSave"
+            android:id="@+id/buttonClickSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="@string/btnClickCancel"
+            android:id="@+id/buttonClickCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
